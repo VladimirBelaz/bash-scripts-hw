@@ -6,3 +6,17 @@
 2. Вычисление произведения первой половины чисел и суммы второй половины  
 3. Запуск тестов на Selenoid с параметрами  
 4. Подсчёт вхождений строки в файле  
+
+Запуск скриптов
+1. Замена расширения
+./ext_replacement.sh test.txt test2.sh txt sh
+
+2. Работа с числами
+./numbers.sh 8
+
+3. Запуск Selenium тестов
+./run_selenium.sh http://test.ru
+ chrome 122
+
+4. Поиск строки в файле
+./search.sh --file test.txt --search hello
